@@ -1,0 +1,96 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #1f1b24, #362d43);
+    color: #ffffff;
+}
+
+h1 {
+    padding-top: 3%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #d7c8c8;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #362d43;
+    border: 1px solid #9f98ad;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #837b94;
+    border-radius: 8px;
+    background-color: #443c56;
+    color: #ffffff;
+}
+
+input[type="submit"] {
+    background-color: #8e54a2;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #6b4079;
+}
+
+footer {
+    background-color: #312d43;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.venue-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.venue-photos img {
+    flex: 1 0 100%;
+    max-width: 80%;
+    height: 600px;
+    margin: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.venue-photos img:hover {
+    transform: scale(1.1);
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+}

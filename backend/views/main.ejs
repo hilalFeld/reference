@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Venue Tour Booking</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <h1>Welcome to Music Venue</h1>
+      <div class="venue-photos">
+        <img src="images/Piano.jpg" alt="Piano">
+        <img src="images/Cellos.jpg" alt="Cellos">
+        <img src="images/Sax.jpg" alt="Saxophone">
+        <img src="images/Collection.jpeg" alt="Collection">
+        <img src="images/Piano2.jpg" alt="Piano">
+        <img src="images/Sax2.jpg" alt="Sax">
+        <img src="images/Violins.jpg" alt="Violins">
+      </div>
+      <h1>Book a Tour</h1>
+      <form action="/" method="post" id="booking-form">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          class="form-control"
+          required
+        >
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+        >
+        <label for="date">Date:</label>
+        <input
+          type="date"
+          id="date"
+          name="date"
+          required
+        >
+        <label for="time">Time:</label>
+        <input
+          type="time"
+          id="time"
+          name="time"
+          required
+        >
+        <button type="submit" name="button">Book Tour</button>
+      </form>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2023 Music Venue Tour Booking. All rights reserved.</p>
+        <p>Contact us: Phone: +961 70 123 456 | Email: info@musicvenue.com</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
